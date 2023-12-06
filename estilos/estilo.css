@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* conteúdo principal */
+
+body {
+ background-color: bisque;
+}
+
+/* conteúdo principal */
+
+/* Rodapé */
+
+    footer {
+        background-color: black;
+        color: bisque;
+        text-align: center;
+    }
+
+/* Rodapé */
