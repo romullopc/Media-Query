@@ -5,6 +5,42 @@
     padding: 0px;
 }
 
+:root {
+    --letra-header: bisque;
+
+}
+
+/*  cabeçalho */
+
+header {
+    font-family: sans-serif;
+    background-color: brown;
+    padding: 20px;
+}
+
+header > h1 {
+    text-align: center;
+    color:var(--letra-header);
+    text-shadow: 1px 1px 1px black;
+    padding: 50px;
+
+}
+
+li {
+    display: inline-block;
+    color:var(--letra-header);
+    text-shadow: 1px 1px black;
+    padding-left: 20px;
+
+}
+
+li:hover {
+    transition: 0.75s;
+    font-size: 1.2em;
+}
+
+/* ----------- */
+
 /* conteúdo principal */
 
 body {
