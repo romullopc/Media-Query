@@ -1,2 +1,9 @@
 @charset "UTF-8";
 
+/* conteúdo principal */
+
+    body { 
+        background-position: bottom left;
+    }
+
+/* ----------------- */
