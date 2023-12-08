@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Conteúdo principal */
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+article::after {
+    content: 'artigo publicado dia 6 de Dezenbro de 2023.';
+}
+
+/* ------------------ */
+
+/* rodapé */
+
+    footer {
+        display: none;
+    }
+
+/* ------------------ */
