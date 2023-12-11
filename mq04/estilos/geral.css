@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 @media print {
 
 }
@@ -16,6 +15,19 @@
     img#pc     { display: none;}
     img#tv     { display: none;}
     img#impressora { display: none;}
-    
-
 }
+
+/* Large device. */
+@media screen and (min-width:992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img{ display: block;}
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#impressora { display: none;}
+    img#tv {display: none;}
+}
+
+    
