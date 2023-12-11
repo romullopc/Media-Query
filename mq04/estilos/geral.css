@@ -1,7 +1,20 @@
 @charset "UTF-8";
 
 @media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
 
+    main h1 {
+        color: black;
+        text-shadow: 1px 1px black;
+    }
+
+    img#impressora { display: block;}
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#pc { display: none;}
+    img#tv {display: none;}
 }
 
 /* Medium devices */
