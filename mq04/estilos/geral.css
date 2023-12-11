@@ -23,17 +23,21 @@
         background-image: url(../imagens/back-pc.jpg);
     }
 
-    img{ display: block;}
+    img#pc { display: block;}
     img#phone {display: none;}
     img#tablet {display: none;}
     img#impressora { display: none;}
     img#tv {display: none;}
 }
 
-/* Extra large devices. */
+/* Extra large devices. */  
 @media screen and (min-width: 1200px) {
     body {
         background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main {
+        width: 1000px;
     }
 
     img#tv { display: block; }
