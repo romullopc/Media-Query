@@ -13,6 +13,7 @@ body {
     background: black url(../imagens/back-phone.jpg) no-repeat;
     background-size: cover;
     position: center center;
+    padding-top: 20px;
     
 }
 
