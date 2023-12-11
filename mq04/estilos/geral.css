@@ -1,3 +1,21 @@
 @charset "UTF-8";
 
-/* CSS Geral. */
+
+@media print {
+
+}
+
+/* Medium devices */
+@media screen and (min-width: 768px) and (max-width:992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#tablet { display: block;}
+    img#phone { display: none;}
+    img#pc     { display: none;}
+    img#tv     { display: none;}
+    img#impressora { display: none;}
+    
+
+}
