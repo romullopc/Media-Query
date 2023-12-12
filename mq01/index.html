@@ -15,11 +15,9 @@
     <header>
 
         <h1>Notícias</h1>
-        <span id="burger"  class="material-symbols-outlined">menu</span>
-
-        <menu>
+        <span id="burger" class="material-symbols-outlined" onclick ="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
-
                 <li>Filmes</li>
                 <li>Jogos</li>
                 <li>Esporte</li>
@@ -50,8 +48,15 @@
     </footer>
 
 <!-- Rodapé -->
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
 
-
-    
+        }
+    </script>
 </body>
 </html>
